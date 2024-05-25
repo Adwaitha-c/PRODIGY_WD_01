@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking - Kashmir Comforts</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <nav>
+        <table cellspacing="5" cellpadding="5" align="center">
+            <tr>
+                <td><a href="home1.html">HOME</a></td>
+                <td><a href="heritage1.html">HERITAGE</a></td>
+                <td><a href="booking1.html">HOTEL BOOKING</a></td>
+                <td><a href="gallery1.html">GALLERY</a></td>
+            </tr>
+        </table>
+    </nav>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <section id="booking-section">
+        <h2>Book Your Stay in Kashmir</h2>
+        <form id="booking-form">
+            <label for="hotel">Choose a Hotel:</label>
+            <select id="hotel" name="hotel">
+                <option value="gulmarg">Hotel Gulmarg</option>
+                <option value="comrade_inn">Comrade Inn</option>
+                <option value="nedous_hotel">Nedous Hotel</option>
+                <option value="rk_sarovar">RK Sarovar</option>
+            </select>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="booking-message"></div>
+    </section>
+</body>
+</html>
+
