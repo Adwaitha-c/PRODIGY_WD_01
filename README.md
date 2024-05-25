@@ -1,5 +1,3 @@
-Sure, here's a more concise version for your README:
-
 ---
 
 Kashmir Tourism Website
